@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    
+}
+.clr{
+    clear: both;
+}
+
+.all{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    position: fixed;
+
+    background-color:#C08261;
+}
+.navbar {
+
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: larger;
+    
+
+    
+
+}
+
+.navbar a {
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+    
+}
+.navbar img {
+    width: 80px;
+    margin-left: 5%;
+}
+
+div ul {
+    display: flex;
+    margin-right: 100%;
+}
+ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+
+.box{
+    text-align: center;
+    color:white;
+    
+}
+
+.container{
+    background-color:white;
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin: 30px;
+}
+.img-content img{
+width: 100%;
+float: left;
+}
+    .img-content{
+    width: 45%;
+    }
+    .content{
+        float: left;
+        width: 45%;
+    }
+    .main{
+        height: 100vh;
+    
+        
+        text-align: center;
+        width: 50%;
+        
+        margin: 0;
+        overflow: auto;
+        float: left;
+        
+    }
+    #demo::after{
+        content: '';
+        background-color: rgb(221, 74, 48);
+        position:absolute;
+        width: 250px;
+        height: 3px;
+        top:50% ;
+        right:60px ;
+    }
+    #demo::before{
+        content: '';
+        background-color: rgb(221, 74, 48);
+        position:absolute;
+        width: 250px;
+        height: 3px;
+        top:50% ;
+        left: 60px;
+
+    }
+    #demo{
+        position: relative;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+    p{
+        color: gray;
+    }
+    .content h2{
+        color: rgb(78, 133, 135);
+    }
+    .line{
+        width: 5px;
+        height: 420px;
+        background-color:rgb(221, 74, 48) ;
+        position: absolute;
+        left: 49%;
+        top: 30%;
+    }
